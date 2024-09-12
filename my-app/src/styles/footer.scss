@@ -1,0 +1,27 @@
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color5;
+
+    >h2{
+        font: 300 1.5rem $text2;
+        color: white;
+    }
+
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+
+        >a{
+            >svg{
+                font-size: 1.5rem;
+                color: white;
+                margin: 0 1rem;
+            }
+        }
+    } 
+}
