@@ -16,7 +16,7 @@ const Projects = () => {
                     <aside>
                       <h3>{i.title}</h3>
                       <p>{i.discription}</p>
-                      <a href={i.url} target='blank'>View Demo</a>
+                      <a href={i.url} target='blank'>View</a>
                     </aside>
                   </div>
                 ))
