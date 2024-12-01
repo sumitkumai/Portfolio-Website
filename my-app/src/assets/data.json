@@ -2,13 +2,13 @@
   "projects": [
     {
       "title": "Food Ordering App",
-      "discription": "Developed a full-stack food ordering application using the MERN stack to streamline the online ordering process.",
+      "discription": "Developed a full-stack food ordering app using the MERN stack to simplify online ordering.",
       "url": "https://food-delivery-app-ten-bay.vercel.app/",
       "imgsrc": "https://t3.ftcdn.net/jpg/02/79/75/74/360_F_279757414_o2KNnB8fZ2eahIK6SqydL4tGFkO5RDH5.jpg"
     },
     {
       "title": "React Crypto App",
-      "discription": "Built a React.js app showcasing cryptocurrency exchanges and market details using real-time API integration.",
+      "discription": "Built a React.js app for cryptocurrency exchanges and market data with real-time API integration.",
       "url": "https://react-crypto-1eibwr3yw-sumit-kumais-projects.vercel.app",
       "imgsrc": "https://pixelz.cc/wp-content/uploads/2018/07/cryptocurrency-uhd-4k-wallpaper.jpeg"
     }
