@@ -1,22 +1,16 @@
 {
   "projects": [
     {
+      "title": "Food Ordering App",
+      "discription": "Developed a full-stack food ordering application using the MERN stack to streamline the online ordering process.",
+      "url": "https://food-delivery-app-ten-bay.vercel.app/",
+      "imgsrc": "https://t3.ftcdn.net/jpg/02/79/75/74/360_F_279757414_o2KNnB8fZ2eahIK6SqydL4tGFkO5RDH5.jpg"
+    },
+    {
       "title": "React Crypto App",
       "discription": "Built a cryptocurrency frontend website utilizing React.js and API integration.",
       "url": "https://react-crypto-1eibwr3yw-sumit-kumais-projects.vercel.app",
       "imgsrc": "https://pixelz.cc/wp-content/uploads/2018/07/cryptocurrency-uhd-4k-wallpaper.jpeg"
-    },
-    {
-      "title": "React Shopping App",
-      "discription": "Developed a user-friendly shopping cart frontend website using React. Implemented responsive design to enhance the user experience.",
-      "url": "https://homeyard-shopping-k0bjkrj4b-sumit-kumais-projects.vercel.app",
-      "imgsrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
-    },
-    {
-      "title": "TechStar React App",
-      "discription": "I have created a static frontend website using React, featuring sections such as Contact, Services, and About.",
-      "url": "https://reactone-mkz4r8hn2-sumit-kumais-projects.vercel.app",
-      "imgsrc": "https://cdn.educba.com/academy/wp-content/uploads/2020/07/psd-9-9-5-3.jpg.webp"
     }
   ]
 }

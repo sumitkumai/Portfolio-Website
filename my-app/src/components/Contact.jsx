@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import toast from "react-hot-toast"
 import {motion} from 'framer-motion'
+import emailjs from "emailjs-com";
 
 const Contact = () => {
 
@@ -8,13 +9,34 @@ const Contact = () => {
   const [email,setEmail] = useState("")
   const [message,setMessage] = useState("")
 
-  const submitHandler = (e)=>{
+  const submitHandler = (e) => {
     e.preventDefault();
-    toast.success("Message Sent");
-    setName('');
-    setEmail('');
-    setMessage('');
-  }
+  
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+    };
+  
+    emailjs
+      .send(
+        "service_wkdpvrs",
+        "template_lab9bt7",
+        templateParams,
+        "gr-C4wwc_EL_MpIPX"
+      )
+      .then(
+        () => {
+          toast.success("Thank you for reaching out! I have received your message and will respond to you shortly.",{duration:4000});
+          setName('');
+          setEmail('');
+          setMessage('');
+        },
+        () => {
+          toast.error("Failed to send your message. Please try again.",{duration:4000});
+        }
+      );
+  };
 
   const animation={
     form:{

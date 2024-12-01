@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight ,BsChevronDown} from "react-icons/bs";
 import me from "../assets/logo.png";
+import resume from '../assets/Resume.pdf'
 
 const Home = () => {
   const animations = {
@@ -48,7 +49,7 @@ const Home = () => {
 
           <Typewriter
             options={{
-              strings: ["A Java Programmer","A Frontend Web Developer"],
+              strings: ["A Java Programmer","A Full Stack Web Developer"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -57,7 +58,7 @@ const Home = () => {
           />
 
           <div>
-            <a href="mailto:kumaisumit688@gamil..com">Hire Me</a>
+            <a href={resume} target="_blank">Resume</a>
             <a href="#projects">
               Projects
               <BsArrowUpRight />
