@@ -27,13 +27,13 @@ const Contact = () => {
       )
       .then(
         () => {
-          toast.success("Thank you for reaching out! I have received your message and will respond to you shortly.",{duration:4000,position:'bottom-center'});
+          toast.success("Thank you for reaching out! I have received your message and will respond to you shortly.",{duration:4000,position:'top-center'});
           setName('');
           setEmail('');
           setMessage('');
         },
         () => {
-          toast.error("Failed to send your message. Please try again.",{duration:4000,position:'bottom-center'});
+          toast.error("Failed to send your message. Please try again.",{duration:4000,position:'top-center'});
         }
       );
   };
