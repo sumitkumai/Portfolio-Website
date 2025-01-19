@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "Online Book Store",
+      "discription": "Created an online book store offering a wide range of books with an engaging user experience.",
+      "url": "https://book-store-seven-tau-70.vercel.app/",
+      "imgsrc": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
       "title": "Food Ordering App",
       "discription": "Developed a full-stack food ordering app using the MERN stack to simplify online ordering.",
       "url": "https://food-delivery-app-ten-bay.vercel.app/",
