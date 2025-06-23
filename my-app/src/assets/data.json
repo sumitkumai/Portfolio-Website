@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "title": "Online Book Store",
-      "discription": "Created an online book store offering a wide range of books with an engaging user experience.",
-      "url": "https://book-store-seven-tau-70.vercel.app/",
-      "imgsrc": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+      "title": "Doctor Appointment Booking App",
+      "discription": "Built an online doctor appointment system with easy booking and schedule management.",
+      "url": "https://medai-frontend-52n8.onrender.com",
+      "imgsrc": "https://static.vecteezy.com/system/resources/previews/013/141/034/non_2x/book-doctor-appointment-card-template-schedule-hospital-visit-editable-social-media-post-design-flat-color-illustration-for-poster-web-banner-ecard-vector.jpg"
     },
     {
       "title": "Food Ordering App",
